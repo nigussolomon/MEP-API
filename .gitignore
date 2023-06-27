@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Local development settings
+*.env
+*.env.*
+*.sqlite3
+
+# Logs and media files
+*.log
+*.swp
+*.swo
+media/
+static/
+
+# Dependency directories
+venv/
+env/
+pipenv/
+pipenv.lock
+
+# Editor and IDE files
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.pydevproject
+.idea/
+
+# Compiled Python modules
+*.pyc
+
+# Django-generated files
+*.secret_key
+*.settings.py
+*.asgi.py
+*.wsgi.py
+
+# Ignore migrations, as they can cause conflicts when merging code
+**/migrations/*
